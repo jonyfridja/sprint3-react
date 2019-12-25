@@ -1,9 +1,9 @@
 const Router = ReactRouterDOM.HashRouter
 const { Switch, Route } = ReactRouterDOM
 
-import Home from './pages/Home.jsx';
-import BookPage from './pages/BookPage.jsx';
-import Navbar from './cmps/Navbar.jsx';
+import Home from './js/pages/Home.jsx';
+import BookPage from './js/pages/BookPage.jsx';
+import Navbar from './js/cmps/Navbar.jsx';
 
 const { createBrowserHistory } = History;
 const history = createBrowserHistory();
