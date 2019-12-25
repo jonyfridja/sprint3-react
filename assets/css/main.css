@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+
+.nav-bar {
+  background-color: #000000;
+  color: #fff;
+}
+
+.nav-container {
+  height: 30px;
+}
+
+.nav-bar-item {
+  margin: 0 10px;
+}
+
+.container {
+  max-width: 870px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex.totally-center {
+  align-items: center;
+  justify-content: center;
+}
